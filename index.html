@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volleyball Store</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/grid.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+</head>
+<body>
+    <!--Header-->
+    <header>
+        <div class="grid wide">
+            <div class="row navbar">
+                <div class="logo">
+                    <img src="./images/logo1.png" width="170px">
+                </div>
+                <div class="menu">
+                    <nav class="nav-menu">
+                        <ul id="menuItems" onclick="">
+                            <li><a href="index.html">Trang chủ</a></li>
+                            <li><a href="product.html">Sản phẩm</a></li>
+                            <li><a href="">Về chúng tôi</a></li>
+                            <li><a href="account.html">Tài khoản</a></li>
+                        </ul>
+                    </nav>
+                    <div class="cart">
+                        <a href="cart.html" class="cart__link-img"><img src="./images/cart.png" width="30px" height="30px"></a>
+                        <div class="no-cart">
+                            <p>Không có sản phẩm nào trong giỏ hàng</p>
+                        </div>
+                    </div>
+                    <img src="./images/menu.png" class="menu-icon" onclick="menutoggle()">
+                </div>       
+            </div> 
+            <div class="row intro">
+                <div class="col l-6 m-6 c-12">
+                    <h1 class="intro__title">Give Your Work <br>A New Style</h1>
+                    <p class="intro__desc">Success isn't always about greatness. It's about consistency. <br> Consistent
+                        hard work gains success. Greatness will come.
+                    </p>
+                    <a href="" class="btn">Khám phá ngay <i class="fas fa-long-arrow-alt-right"></i></a>
+                </div>
+                <div class="col l-6 m-6 c-12">
+                    <img src="./images/volleyball.png" alt="">
+                </div>
+            </div>   
+        </div> 
+    </header>
+    <!--end header-->
+    <!--Category-->
+    <div class="category">
+        <div class="grid small">
+            <div class="row">
+                <div class="col l-4 m-3 c-12">
+                    <img src="./images/cate2.jpg" alt="">
+                </div>
+                <div class="col l-4 m-3 c-12">
+                    <img src="./images/cate5.jpg" alt="">
+                </div>
+                <div class="col l-4 m-3 c-12">
+                    <img src="./images/cate4.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Banner-->
+    <div class="banner">
+        <div class="grid small">
+            <h2 class="banner__title">BỘ SƯU TẬP</h2>  
+            <div class="row"> 
+                <div class="col l-6">
+                    <div class="banner__img-container">
+                        <a href="product.html" class="banner__link"><img src="./images/evo_banner_1.jpg" width="100%"></a>
+                    </div>  
+                </div>
+                <div class="col l-6">
+                    <div class="banner__img-container">
+                        <a href="product.html" class="banner__link"><img src="./images/evo_banner_2.jpg" width="100%"></a>
+                    </div>
+                </div>  
+            </div>
+        </div>
+    </div>
+    <!--Product-->
+    <div class="product">
+        <div class="grid wide">
+            <h2 class="product__title">GIÀY THI ĐẤU BÓNG CHUYỀN</h2>
+            <div class="row">
+                <div class="col l-3 m-6">
+                    <div class="product__info">
+                        <a href="product-details.html"><img src="./images/navy-orange.jpg"></a> 
+                        <h4 class="product__info-title"><a href="product-details.html" class="product__info-link">BEYONO SKY DREAM - NAVY ORANGE</a></h4>
+                        <p class="product__info-price">650.000đ</p>
+                    </div>
+                </div>
+                <div class="col l-3 m-6">
+                    <div class="product__info">
+                        <a href="product-details.html"><img src="./images/grey.jpg"></a>
+                        <h4 class="product__info-title"><a href="product-details.html" class="product__info-link">BEYONO SKY DREAM - NAVY ORANGE</a></h4>
+                        <p class="product__info-price">650.000đ</p>
+                    </div>
+                </div>
+                <div class="col l-3 m-6">
+                    <div class="product__info">
+                        <a href="product-details.html"><img src="./images/white-red.jpg"></a>
+                        <h4 class="product__info-title"><a href="product-details.html" class="product__info-link">BEYONO SKY DREAM - NAVY ORANGE</a></h4>
+                        <p class="product__info-price">650.000đ</p>
+                    </div>
+                </div>
+                <div class="col l-3 m-6">
+                    <div class="product__info">
+                        <a href="product-details.html"><img src="./images/blue.jpg"></a>
+                        <h4 class="product__info-title"><a href="product-details.html" class="product__info-link">BEYONO SKY DREAM - NAVY ORANGE</a></h4>
+                        <p class="product__info-price">650.000đ</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Product sportswear-->
+    <div class="product sportswear">
+        <div class="grid wide">
+            <h2 class="product__title">ĐỒNG PHỤC THI ĐẤU BÓNG CHUYỀN</h2>
+            <div class="row">
+                <div class="col l-2-4 m-6 c-12">
+                    <div class="product__info">
+                        <a href="product-details.html"><img src="./images/ao1.jpg"></a> 
+                        <h4 class="product__info-title"><a href="product-details.html" class="product__info-link">BEYONO SKY DREAM - NAVY ORANGE</a></h4>
+                        <p class="product__info-price">160.000đ</p>
+                    </div>
+                </div>
+                <div class="col l-2-4 m-6 c-12">
+                    <div class="product__info">
+                        <a href="product-details.html"><img src="./images/ao2.jpg"></a> 
+                        <h4 class="product__info-title"><a href="product-details.html" class="product__info-link">BEYONO SKY DREAM - NAVY ORANGE</a></h4>
+                        <p class="product__info-price">160.000đ</p>
+                    </div>
+                </div>
+                <div class="col l-2-4 m-6 c-12">
+                    <div class="product__info">
+                        <a href="product-details.html"><img src="./images/ao3.jpg"></a> 
+                        <h4 class="product__info-title"><a href="product-details.html" class="product__info-link">BEYONO SKY DREAM - NAVY ORANGE</a></h4>
+                        <p class="product__info-price">160.000đ</p>
+                    </div>
+                </div>
+                <div class="col l-2-4 m-6 c-12">
+                    <div class="product__info">
+                        <a href="product-details.html"><img src="./images/ao4.jpg"></a> 
+                        <h4 class="product__info-title"><a href="product-details.html" class="product__info-link">BEYONO SKY DREAM - NAVY ORANGE</a></h4>
+                        <p class="product__info-price">160.000đ</p>
+                    </div>
+                </div>
+                <div class="col l-2-4 m-0 c-12">
+                    <div class="product__info">
+                        <a href="product-details.html"><img src="./images/ao5.jpg"></a> 
+                        <h4 class="product__info-title"><a href="product-details.html" class="product__info-link">BEYONO SKY DREAM - NAVY ORANGE</a></h4>
+                        <p class="product__info-price">160.000đ</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="offer">
+         
+        <img src="./images/banner1.jpg" width="100%" alt="">
+     
+    </div>
+    <!--news-->
+    <div class="news">
+        <h2 class="news__title">HOẠT ĐỘNG CỦA BEYONO VIỆT NAM</h2>
+        <div class="grid wide">
+            <div class="row">
+                <div class="col l-6">
+                    <div class="news__item">
+                        <img src="https://bizweb.dktcdn.net/thumb/1024x1024/100/338/896/articles/beyono-flash-1.jpg?v=1607486536977" alt="">
+                        <div class="news__info">
+                            <h3 class="news__info-title">RA MẮT TRANG PHỤC BÓNG CHUYỀN BEYONO FLASH</h3>
+                            <p class="news__info-desc">
+                                Lấy cảm hứng từ Tốc độ "Beyono Flash" là biểu trưng của tốc độ, sự nhanh nhạy và linh hoạt ứng biến với mọi tình huống, cho dù khó khăn đến đâu. 
+                                𝗕𝗲𝒚𝒐𝒏𝒐 𝑽𝒊𝒆̣̂𝒕 𝑵𝒂𝒎 đã dành rất nh...
+                            </p>
+                        </div>   
+                    </div>
+                </div>
+                <div class="col l-6">
+                    <div class="news__item">
+                        <img src="https://bizweb.dktcdn.net/thumb/1024x1024/100/338/896/articles/beyono-flash-1.jpg?v=1607486536977" alt="">
+                        <div class="news__info">
+                            <h3 class="news__info-title">RA MẮT TRANG PHỤC BÓNG CHUYỀN BEYONO FLASH</h3>
+                            <p class="news__info-desc">
+                                Lấy cảm hứng từ Tốc độ "Beyono Flash" là biểu trưng của tốc độ, sự nhanh nhạy và linh hoạt ứng biến với mọi tình huống, cho dù khó khăn đến đâu. 
+                                𝗕𝗲𝒚𝒐𝒏𝒐 𝑽𝒊𝒆̣̂𝒕 𝑵𝒂𝒎 đã dành rất nh...
+                            </p>
+                        </div>   
+                    </div>
+                </div>
+                <div class="col l-6">
+                    <div class="news__item">
+                        <img src="https://bizweb.dktcdn.net/thumb/1024x1024/100/338/896/articles/beyono-flash-1.jpg?v=1607486536977" alt="">
+                        <div class="news__info">
+                            <h3 class="news__info-title">RA MẮT TRANG PHỤC BÓNG CHUYỀN BEYONO FLASH</h3>
+                            <p class="news__info-desc">
+                                Lấy cảm hứng từ Tốc độ "Beyono Flash" là biểu trưng của tốc độ, sự nhanh nhạy và linh hoạt ứng biến với mọi tình huống, cho dù khó khăn đến đâu. 
+                                𝗕𝗲𝒚𝒐𝒏𝒐 𝑽𝒊𝒆̣̂𝒕 𝑵𝒂𝒎 đã dành rất nh...
+                            </p>
+                        </div>   
+                    </div>
+                </div>
+                <div class="col l-6">
+                    <div class="news__item">
+                        <img src="https://bizweb.dktcdn.net/thumb/1024x1024/100/338/896/articles/beyono-flash-1.jpg?v=1607486536977" alt="">
+                        <div class="news__info">
+                            <h3 class="news__info-title">RA MẮT TRANG PHỤC BÓNG CHUYỀN BEYONO FLASH</h3>
+                            <p class="news__info-desc">
+                                Lấy cảm hứng từ Tốc độ "Beyono Flash" là biểu trưng của tốc độ, sự nhanh nhạy và linh hoạt ứng biến với mọi tình huống, cho dù khó khăn đến đâu. 
+                                𝗕𝗲𝒚𝒐𝒏𝒐 𝑽𝒊𝒆̣̂𝒕 𝑵𝒂𝒎 đã dành rất nh...
+                            </p>
+                        </div>   
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--footer-->
+    <footer>
+        <div class="grid wide">
+            <div class="row">
+                <div class="col l-3 m-6 c-6">
+                    <h3>CÔNG TY BEYONO VIỆT NAM</h3>
+                    <ul>
+                        <li>
+                            <p>
+                                <i class="fa fa-map-marker-alt"></i> 61C, Đường số 6, Khu Phố 2, Phường Hiệp Bình Chánh, Thủ Đức, TP.HCM</p>
+                        </li>
+                        <li><i class="fa fa-phone"></i> 0898540109</li>
+                        <li><i class="fa fa-envelope"></i> Beyono.vietnam@gmail.com</li>
+                    </ul>
+                </div>
+                <div class="col l-3 m-6 c-6">
+                    <h3>VỀ CHÚNG TÔI</h3>
+                    <ul>
+                       <li><a href="" class="footer__link">Trang chủ</a></li>
+                       <li><a href="" class="footer__link">Giới thiệu</a></li>
+                       <li><a href="" class="footer__link">Sản phẩm</a></li>
+                       <li><a href="" class="footer__link">Hoạt động</a></li>
+                    </ul>
+                </div>
+                <div class="col l-3 m-6 c-6">
+                    <h3>THÔNG TIN</h3>
+                    <ul>
+                       <li><a href="" class="footer__link">HƯỚNG DẪN CHỌN SIZE</a></li>
+                       <li><a href="" class="footer__link">HƯỚNG DẪN ĐẶT HÀNG</a></li>
+                       <li><a href="" class="footer__link">CHÍNH SÁCH</a></li>
+                       <li><a href="" class="footer__link">LIÊN HỆ</a></li>
+                    </ul>
+                </div>
+                <div class="col l-3 m-6 c-6">
+                    <h3>THEO DÕI CHÚNG TÔI TRÊN</h3>
+                    <ul>
+                       <li><a href="" class="footer__link"><i class="fab fa-facebook-square"></i> Facebook</a></li>
+                       <li><a href="" class="footer__link"><i class="fab fa-instagram"></i> Instagram</a></li>
+                       <li><a href="" class="footer__link"><i class="fab fa-twitter-square"></i> Twitter</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="copyright">
+		<div class="grid wide">
+			<div class="row">
+				<div class="col l-12">
+					<span>© Copyright by Nguyen Huy</span>
+					
+				</div>
+			</div>
+			
+		</div>
+    </div>
+    <script>
+        var menuItems = document.getElementById("menuItems");
+        menuItems.style.maxHeight = "0px";
+
+        function menutoggle() {
+            if(menuItems.style.maxHeight == "0px") {
+                menuItems.style.maxHeight = "200px";
+            }
+            else {
+                menuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+</body>
+</html>

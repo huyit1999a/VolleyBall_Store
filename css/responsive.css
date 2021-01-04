@@ -1,0 +1,167 @@
+@media only screen and (max-width: 480px) {
+
+}
+
+@media only screen and (max-width: 739px) {
+    .menu-icon {
+        margin-right: 5.3rem;
+        display: inline-block;
+    }
+
+    .intro {
+        text-align: center;
+    }
+
+    .category .col {
+        margin-bottom: 4rem;
+    }
+
+    .banner .col {
+        margin-bottom: 4rem;
+    }
+
+    .product__title {
+        line-height: 1.2;
+    }
+
+    .product__info-link {
+        font-size: 2rem;
+        line-height: 1;
+    }
+
+    .product__info-price {
+        font-size: 2rem;
+    }
+
+    footer .col {
+        padding: 0rem 2rem;
+        line-height: 1.2;
+    }
+
+    .copyright .row {
+        justify-content: center;
+    }
+
+    .product .row {
+        justify-content: center;
+    }
+
+    .single-product .text {
+        text-align: center;
+    }
+
+    .single-product h3 {
+        font-size: 2rem;
+        line-height: 1.5;
+        margin-top: 2rem;
+    }
+
+    .single-product select,
+    .qty input {
+        margin-left: 8px;
+    }
+
+    .single-product-btn {
+        width: 95%;
+    }
+
+    .single-product__desc {
+        padding: 0 6px;
+    }
+
+    .product__ralated .product__item {
+        margin-bottom: 2rem;
+    }
+
+    .product__ralated .col {
+        padding: 0 4px;
+    }
+
+    .breadcrumb {
+        margin-left: 4px;
+    }
+
+    .cart__desc h4 {
+        margin-top: 1rem;
+    }
+
+    .btn-cart {
+        padding: 6px 20px;
+    }
+
+    .cart-pay {
+        text-align: center;
+    }
+
+    .table-total-price {
+        padding: 0 8px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .menu-icon {
+        display: inline-block;
+    }
+
+    .nav-menu ul{
+        position: absolute;
+        top: 7rem;
+        left: 0;
+        background: #333;
+        width: 100%;
+        overflow: hidden;
+        transition: max-height 0.5s;
+        display: inline-block;
+        text-align: right;
+        z-index: 2;
+    }
+
+    .nav-menu ul li {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        margin-right: 5rem;
+    }
+
+    .nav-menu ul li a{
+        color: #fff;
+    }
+}
+
+@media only screen and (min-width: 740px) and (max-width:1023px){
+    .menu-icon {
+        display: inline-block;
+    }
+
+    .category .row {
+        justify-content: center;
+    }
+
+    .copyright .row {
+        justify-content: center;
+    }
+
+    .banner .col {
+        margin-bottom: 4rem;
+    }
+
+    .list-product__title {
+        font-size: 2.6rem;
+    }
+
+    .product__item img {
+        width: 23rem;
+        height: 23rem;
+    }
+
+    .total-price .row {
+        padding: 0 8px;
+    }
+
+  
+}
+
+@media only screen and (min-width: 1024px) {
+    .menu-icon {
+        display: none;
+    }
+}

@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volleyball Store</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/grid.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+</head>
+<body>
+    <!--Header-->
+    <div class="grid wide">
+        <div class="row navbar">
+            <div class="logo">
+                <img src="./images/logo1.png" width="170px">
+            </div>
+            <div class="menu">
+                <nav class="nav-menu">
+                    <ul id="menuItems" onclick="">
+                        <li><a href="index.html">Trang chủ</a></li>
+                        <li><a href="product.html">Sản phẩm</a></li>
+                        <li><a href="">Về chúng tôi</a></li>
+                        <li><a href="account.html">Tài khoản</a></li>
+                    </ul>
+                </nav>
+                <img src="./images/cart.png" width="30px" height="30px">
+                <img src="./images/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>      
+        </div> 
+    </div> 
+    <!--end header-->
+    <div class="breadcrumb">
+        <hr>
+        <div class="grid wide">
+            <div class="row">
+               <div class="col l-12">
+              <span><a href="index.html">Trang chủ </a> <i class="fas fa-angle-right"></i> Tất cả sản phẩm</span>
+               </div>
+            </div>  
+        </div>
+        <hr>
+    </div>
+    <div class="cate-product">
+        <div class="grid wide">
+            <div class="row">
+                <div class="col l-3 m-0 c-0 cate">
+                    <div class="cate">
+                        <h2>
+                            DANH MỤC
+                        </h2>
+                        <div class="cate__item">
+                            <ul>
+                                <li><h3><a href="" class="cate__link">Đồng phục bóng chuyền nam</a></h3></li>
+                                <li><h3><a href="" class="cate__link">Đồng phục bóng chuyền nữ</a></h3></li>
+                                <li><h3><a href="" class="cate__link">Giày bóng chuyền nam</a></h3></li>
+                                <li><h3><a href="" class="cate__link">Giày bóng chuyền nữ</a></h3></li>
+                            </ul>
+                        </div>
+                    </div> 
+                    <hr>
+                    <div class="aside-filter">
+                        <h2>TÌM THEO</h2>
+                        <div class="aside-filter__item">
+                            <h3>Giá sản phẩm</h3>
+                            <ul>
+                                <li>
+                                    <input type="checkbox" name="price">
+                                    <label for="">Giá dưới 500.000đ</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="price">
+                                    <label for="">Giá từ 500.000đ đến 1.000.000đ</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="price">
+                                    <label for="">Giá trên 1.000.000đ</label>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l-9">
+                    <div class="list-product">
+                        <h2 class="list-product__title">TẤT CẢ SẢN PHẨM</h2>
+                        <div class="sort">
+                            <span>Sắp xếp:  </span>
+                            <select>
+                                <option value="" style="display:none;">Thứ tự</option>
+                                <option value="">A - Z</option>
+                                <option value="">Z - A</option>
+                                <option value="">Giá tăng dần</option>
+                                <option value="">Giá giảm dần</option>
+                            </select>
+                        </div>
+                    </div>
+                    <hr class="product-hr">
+                    <div class="row product__list">   
+                        <div class="col l-4 m-4 c-6">
+                            <div class="product__item">
+                                <a href="product-details.html"><img src="./images/ao6.jpg"></a> 
+                                <h4 class="product__item-title"><a href="product-details.html" class="product__item-link">Đồng Phục Bóng Chuyền Beyono Thunder Nam - Đỏ</a></h4>
+                                <p class="product__item-price">160.000đ</p>
+                            </div>
+                        </div>
+                        <div class="col l-4 m-4 c-6">
+                            <div class="product__item">
+                                <a href="product-details.html"><img src="./images/ao7.jpg"></a> 
+                                <h4 class="product__item-title"><a href="product-details.html" class="product__item-link">Đồng Phục Bóng Chuyền Beyono Thunder Nam - Đỏ</a></h4>
+                                <p class="product__item-price">160.000đ</p>
+                            </div>
+                        </div>
+                        <div class="col l-4 m-4 c-0">
+                            <div class="product__item">
+                                <a href="product-details.html"><img src="./images/ao8.jpg"></a> 
+                                <h4 class="product__item-title"><a href="product-details.html" class="product__item-link">Đồng Phục Bóng Chuyền Beyono Thunder Nam - Đỏ</a></h4>
+                                <p class="product__item-price">160.000đ</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row product__list">   
+                        <div class="col l-4 m-4 c-6">
+                            <div class="product__item">
+                                <a href="product-details.html"><img src="./images/ao8.jpg"></a> 
+                                <h4 class="product__item-title"><a href="product-details.html" class="product__item-link">Đồng Phục Bóng Chuyền Beyono Thunder Nam - Đỏ</a></h4>
+                                <p class="product__item-price">160.000đ</p>
+                            </div>
+                        </div>
+                        <div class="col l-4 m-4 c-6">
+                            <div class="product__item">
+                                <a href="product-details.html"><img src="./images/ao7.jpg"></a> 
+                                <h4 class="product__item-title"><a href="product-details.html" class="product__item-link">Đồng Phục Bóng Chuyền Beyono Thunder Nam - Đỏ</a></h4>
+                                <p class="product__item-price">160.000đ</p>
+                            </div>
+                        </div>
+                        <div class="col l-4 m-4 c-0">
+                            <div class="product__item">
+                                <a href="product-details.html"><img src="./images/ao6.jpg"></a> 
+                                <h4 class="product__item-title"><a href="product-details.html" class="product__item-link">Đồng Phục Bóng Chuyền Beyono Thunder Nam - Đỏ</a></h4>
+                                <p class="product__item-price">160.000đ</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row product__list">   
+                        <div class="col l-4 m-4 c-6">
+                            <div class="product__item">
+                                <a href="product-details.html"><img src="./images/ao6.jpg"></a> 
+                                <h4 class="product__item-title"><a href="product-details.html" class="product__item-link">Đồng Phục Bóng Chuyền Beyono Thunder Nam - Đỏ</a></h4>
+                                <p class="product__item-price">160.000đ</p>
+                            </div>
+                        </div>
+                        <div class="col l-4 m-4 c-6">
+                            <div class="product__item">
+                                <a href="product-details.html"><img src="./images/ao7.jpg"></a> 
+                                <h4 class="product__item-title"><a href="product-details.html" class="product__item-link">Đồng Phục Bóng Chuyền Beyono Thunder Nam - Đỏ</a></h4>
+                                <p class="product__item-price">160.000đ</p>
+                            </div>
+                        </div>
+                        <div class="col l-4 m-4 c-0">
+                            <div class="product__item">
+                                <a href="product-details.html"><img src="./images/ao8.jpg"></a> 
+                                <h4 class="product__item-title"><a href="product-details.html" class="product__item-link">Đồng Phục Bóng Chuyền Beyono Thunder Nam - Đỏ</a></h4>
+                                <p class="product__item-price">160.000đ</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row product__list">   
+                        <div class="col l-4 m-4 c-6">
+                            <div class="product__item">
+                                <a href="product-details.html"><img src="./images/ao8.jpg"></a> 
+                                <h4 class="product__item-title"><a href="product-details.html" class="product__item-link">Đồng Phục Bóng Chuyền Beyono Thunder Nam - Đỏ</a></h4>
+                                <p class="product__item-price">160.000đ</p>
+                            </div>
+                        </div>
+                        <div class="col l-4 m-4 c-6">
+                            <div class="product__item">
+                                <a href="product-details.html"><img src="./images/ao7.jpg"></a> 
+                                <h4 class="product__item-title"><a href="product-details.html" class="product__item-link">Đồng Phục Bóng Chuyền Beyono Thunder Nam - Đỏ</a></h4>
+                                <p class="product__item-price">160.000đ</p>
+                            </div>
+                        </div>
+                        <div class="col l-4 m-4 c-0">
+                            <div class="product__item">
+                                <a href="product-details.html"><img src="./images/ao6.jpg"></a> 
+                                <h4 class="product__item-title"><a href="product-details.html" class="product__item-link">Đồng Phục Bóng Chuyền Beyono Thunder Nam - Đỏ</a></h4>
+                                <p class="product__item-price">160.000đ</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="paginate">
+                        <div class="row">
+                            <ul>
+                                <li><a href="" class="paginate__link"><</a></li>
+                                <li><a href="" class="paginate__link active">1</a></li>
+                                <li><a href="" class="paginate__link">2</a></li>
+                                <li><a href="" class="paginate__link">3</a></li>
+                                <li><a href="" class="paginate__link">></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </div>
+    </div>
+    <!--footer-->
+    <footer>
+        <div class="grid wide">
+            <div class="row">
+                <div class="col l-3 m-6 c-6">
+                    <h3>CÔNG TY BEYONO VIỆT NAM</h3>
+                    <ul>
+                        <li>
+                            <p>
+                                <i class="fa fa-map-marker-alt"></i> 61C, Đường số 6, Khu Phố 2, Phường Hiệp Bình Chánh, Thủ Đức, TP.HCM</p>
+                        </li>
+                        <li><i class="fa fa-phone"></i> 0898540109</li>
+                        <li><i class="fa fa-envelope"></i> Beyono.vietnam@gmail.com</li>
+                    </ul>
+                </div>
+                <div class="col l-3 m-6 c-6">
+                    <h3>VỀ CHÚNG TÔI</h3>
+                    <ul>
+                       <li><a href="" class="footer__link">Trang chủ</a></li>
+                       <li><a href="" class="footer__link">Giới thiệu</a></li>
+                       <li><a href="" class="footer__link">Sản phẩm</a></li>
+                       <li><a href="" class="footer__link">Hoạt động</a></li>
+                    </ul>
+                </div>
+                <div class="col l-3 m-6 c-6">
+                    <h3>THÔNG TIN</h3>
+                    <ul>
+                       <li><a href="" class="footer__link">HƯỚNG DẪN CHỌN SIZE</a></li>
+                       <li><a href="" class="footer__link">HƯỚNG DẪN ĐẶT HÀNG</a></li>
+                       <li><a href="" class="footer__link">CHÍNH SÁCH</a></li>
+                       <li><a href="" class="footer__link">LIÊN HỆ</a></li>
+                    </ul>
+                </div>
+                <div class="col l-3 m-6 c-6">
+                    <h3>THEO DÕI CHÚNG TÔI TRÊN</h3>
+                    <ul>
+                       <li><a href="" class="footer__link">Facebook</a></li>
+                       <li><a href="" class="footer__link">Instagram</a></li>
+                       <li><a href="" class="footer__link">Twitter</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="copyright">
+		<div class="grid wide">
+			<div class="row">
+				<div class="col l-12 text-center">
+					<span>© Copyright by Nguyen Huy</span>
+					
+				</div>
+			</div>
+			
+		</div>
+    </div>
+    <script>
+        var menuItems = document.getElementById("menuItems");
+        menuItems.style.maxHeight = "0px";
+
+        function menutoggle() {
+            if(menuItems.style.maxHeight == "0px") {
+                menuItems.style.maxHeight = "200px";
+            }
+            else {
+                menuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+</body>
+</html>

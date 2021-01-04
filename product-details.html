@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volleyball Store</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/grid.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+</head>
+<body>
+    <!--Header-->
+    <div class="grid wide">
+        <div class="row navbar">
+            <div class="logo">
+                <img src="./images/logo1.png" width="170px">
+            </div>
+            <div class="menu">
+                <nav class="nav-menu">
+                    <ul id="menuItems" onclick="">
+                        <li><a href="index.html">Trang chủ</a></li>
+                        <li><a href="product.html">Sản phẩm</a></li>
+                        <li><a href="">Về chúng tôi</a></li>
+                        <li><a href="account.html">Tài khoản</a></li>
+                    </ul>
+                </nav>
+                <img src="./images/cart.png" width="30px" height="30px">
+                <img src="./images/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>      
+        </div> 
+    </div> 
+    <!--end header-->
+    <div class="breadcrumb">
+        <hr>
+        <div class="grid wide">
+            <div class="row">
+               <div class="col l-12">
+                <span><a href="index.html">Trang chủ </a> <i class="fas fa-angle-right"></i> Đồng phục bóng chuyền nam <i class="fas fa-angle-right"></i> Đồng phục bóng chuyền Beyono Thunder Nam - Đỏ</span>
+               </div>
+            </div>  
+        </div>
+        <hr>
+    </div>
+    <div class="single-product">
+        <div class="grid wide">
+            <div class="row">
+                <div class="col l-6 m-6 c-12 image">
+                    <img src="https://bizweb.dktcdn.net/thumb/large/100/338/896/products/do-nam-1-1.jpg?v=1607736808160" id="productImg">
+                    <div class="small-row-img">
+                        <img src="https://bizweb.dktcdn.net/100/338/896/products/do-nam-1-1.jpg?v=1607736808160" alt="" class="small-img">
+                        <img src="https://bizweb.dktcdn.net/100/338/896/products/do-doi-8832163b-c4ae-4211-8e7e-fd2fe31bfdc7.jpg?v=1607736809610" alt="" class="small-img">    
+                    </div>
+                </div>
+                <div class="col l-6 m-6 c-12 text">
+                    <h3>Đồng Phục Bóng Chuyền Beyono Thunder Nam - Đỏ</h3>
+                    <p class="single-product__brand">Thương hiệu: <b>Beyono</b></p>
+                    <p class="single-product__price">160.000đ</p>
+                    <span class="single-product__size">Kích thước: </span>
+                    <select name="" id="">
+                        <option value="">M</option>
+                        <option value="">L</option>
+                        <option value="">XL</option>
+                        <option value="">XXL</option>
+                    </select>
+                   <p class="qty">Số lượng: <input type="number" min="1" value="1"></p>
+                   <a href="cart.html" class="btn-product single-product-btn">
+                       <span class="text-main">Mua ngay với giá  <b>160.000d</b> </span>
+                      
+                       <span class="text-add">Đặt mua giao hàng tận nơi</span>
+                   </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col l-12">
+                    <div class="single-product__desc">
+                        <h4>MÔ TẢ</h4>
+                        <hr>
+                        <p>𝐁𝐄𝐘𝐎𝐍𝐎 𝐓𝐇𝐔𝐍𝐃𝐄𝐑 - LỜI SẤM TRUYỀN "CHIẾN THẮNG" TỪ NGÀN XƯA</p>
+                        <p>Được truyền cảm hứng từ vị thần Thor trong thần thoại Bắc Âu cổ, là vị thần thống trị bầu trời và sấm sét. 𝗕𝗲𝘆𝗼𝗻𝗼 𝗧𝗵𝘂𝗻𝗱𝗲𝗿 như những bộ giáp vững chắc để các cầu thủ ra sân với hào khí dân tộc. Như cách cha ông ta ngày xưa luôn tin tưởng, đoàn kết để mang lại những chiến thắng vẻ vang làm nên lịch sử của dân tộc.</p>
+                        <p>&nbsp;Điểm nhấn của Beyono Thunder là những họa tiết sấm sét cách điệu đan xen vào nhau. Thể hiện sự mạnh mẽ, sức mạnh vượt bậc tựa như những pha đập bóng trên sân bất ngờ, đầy sự khéo léo khiến đối thủ phải ngã mũ thán phục.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="product__ralated">
+                <div class="row">
+                    <div class="col l-12 m-12 c-12">
+                        <h2>SẢN PHẨM LIÊN QUAN</h2>
+                    </div>
+                    <div class="col l-2-4 m-4 c-6">
+                        <div class="product__item">
+                            <a href=""><img src="https://bizweb.dktcdn.net/thumb/large/100/338/896/products/do-doi-8832163b-c4ae-4211-8e7e-fd2fe31bfdc7.jpg?v=1607736809000"></a> 
+                            <h4 class="product__item-title"><a href="" class="product__item-link">Đồng Phục Bóng Chuyền Beyono Thunder Nam - Đỏ</a></h4>
+                            <p class="product__item-price">160.000đ</p>
+                        </div>
+                    </div>
+                    <div class="col l-2-4 m-4 c-6">
+                        <div class="product__item">
+                            <a href=""><img src="https://bizweb.dktcdn.net/thumb/large/100/338/896/products/do-doi-8832163b-c4ae-4211-8e7e-fd2fe31bfdc7.jpg?v=1607736809000"></a> 
+                            <h4 class="product__item-title"><a href="" class="product__item-link">Đồng Phục Bóng Chuyền Beyono Thunder Nam - Đỏ</a></h4>
+                            <p class="product__item-price">160.000đ</p>
+                        </div>
+                    </div>
+                    <div class="col l-2-4 m-4 c-6">
+                        <div class="product__item">
+                            <a href=""><img src="https://bizweb.dktcdn.net/thumb/large/100/338/896/products/do-doi-8832163b-c4ae-4211-8e7e-fd2fe31bfdc7.jpg?v=1607736809000"></a> 
+                            <h4 class="product__item-title"><a href="" class="product__item-link">Đồng Phục Bóng Chuyền Beyono Thunder Nam - Đỏ</a></h4>
+                            <p class="product__item-price">160.000đ</p>
+                        </div>
+                    </div>
+                    <div class="col l-2-4 m-0 c-6">
+                        <div class="product__item">
+                            <a href=""><img src="https://bizweb.dktcdn.net/thumb/large/100/338/896/products/do-doi-8832163b-c4ae-4211-8e7e-fd2fe31bfdc7.jpg?v=1607736809000"></a> 
+                            <h4 class="product__item-title"><a href="" class="product__item-link">Đồng Phục Bóng Chuyền Beyono Thunder Nam - Đỏ</a></h4>
+                            <p class="product__item-price">160.000đ</p>
+                        </div>
+                    </div>
+                    <div class="col l-2-4 m-0 c-0">
+                        <div class="product__item">
+                            <a href=""><img src="https://bizweb.dktcdn.net/thumb/large/100/338/896/products/do-doi-8832163b-c4ae-4211-8e7e-fd2fe31bfdc7.jpg?v=1607736809000"></a> 
+                            <h4 class="product__item-title"><a href="" class="product__item-link">Đồng Phục Bóng Chuyền Beyono Thunder Nam - Đỏ</a></h4>
+                            <p class="product__item-price">160.000đ</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--footer-->
+    <footer>
+        <div class="grid wide">
+            <div class="row">
+                <div class="col l-3 m-6 c-6">
+                    <h3>CÔNG TY BEYONO VIỆT NAM</h3>
+                    <ul>
+                        <li>
+                            <p>
+                                <i class="fa fa-map-marker-alt"></i> 61C, Đường số 6, Khu Phố 2, Phường Hiệp Bình Chánh, Thủ Đức, TP.HCM</p>
+                        </li>
+                        <li><i class="fa fa-phone"></i> 0898540109</li>
+                        <li><i class="fa fa-envelope"></i> Beyono.vietnam@gmail.com</li>
+                    </ul>
+                </div>
+                <div class="col l-3 m-6 c-6">
+                    <h3>VỀ CHÚNG TÔI</h3>
+                    <ul>
+                       <li><a href="" class="footer__link">Trang chủ</a></li>
+                       <li><a href="" class="footer__link">Giới thiệu</a></li>
+                       <li><a href="" class="footer__link">Sản phẩm</a></li>
+                       <li><a href="" class="footer__link">Hoạt động</a></li>
+                    </ul>
+                </div>
+                <div class="col l-3 m-6 c-6">
+                    <h3>THÔNG TIN</h3>
+                    <ul>
+                       <li><a href="" class="footer__link">HƯỚNG DẪN CHỌN SIZE</a></li>
+                       <li><a href="" class="footer__link">HƯỚNG DẪN ĐẶT HÀNG</a></li>
+                       <li><a href="" class="footer__link">CHÍNH SÁCH</a></li>
+                       <li><a href="" class="footer__link">LIÊN HỆ</a></li>
+                    </ul>
+                </div>
+                <div class="col l-3 m-6 c-6">
+                    <h3>THEO DÕI CHÚNG TÔI TRÊN</h3>
+                    <ul>
+                       <li><a href="" class="footer__link">Facebook</a></li>
+                       <li><a href="" class="footer__link">Instagram</a></li>
+                       <li><a href="" class="footer__link">Twitter</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="copyright">
+		<div class="grid wide">
+			<div class="row">
+				<div class="col l-12 text-center">
+					<span>© Copyright by Nguyen Huy</span>
+					
+				</div>
+			</div>
+			
+		</div>
+    </div>
+    <script>
+        var menuItems = document.getElementById("menuItems");
+        menuItems.style.maxHeight = "0px";
+
+        function menutoggle() {
+            if(menuItems.style.maxHeight == "0px") {
+                menuItems.style.maxHeight = "200px";
+            }
+            else {
+                menuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+    <script>
+        // <!--JS product gallery-->
+        var productImg = document.getElementById("productImg");
+        var smallImg = document.getElementsByClassName("small-img");
+
+        smallImg[0].onclick = function () {
+            productImg.src = smallImg[0].src;
+        }
+        smallImg[1].onclick = function () {
+            productImg.src = smallImg[1].src;
+        }
+        smallImg[2].onclick = function () {
+            productImg.src = smallImg[2].src;
+        }
+        smallImg[3].onclick = function () {
+            productImg.src = smallImg[3].src;
+        }
+    </script>
+</body>
+</html>
